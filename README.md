@@ -1,4 +1,4 @@
-https://github.com/HolyShinx/SO2_Projekt/assets/71772288/92405fa2-6390-4392-beba-9ef7926aea9d
+![b0c4f3f4-694d-476d-ae7b-3b72280923c5](https://github.com/HolyShinx/SO2_Projekt/assets/71772288/ffa19852-9d63-42b0-a30c-2a80681a1d42)
 
 
 todo:

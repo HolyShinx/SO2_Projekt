@@ -25,10 +25,17 @@ ScoreManager - Wątek do zarządzania wartością punktów, dodaje za trafienia,
 
 ### Sekcje krytyczne:
 Projectile - 2 Muteksy:
+
 Ruch pocisku i stan - każdy wątek pocisku modyfikuje pozycje pocisku i sprawdza/aktualizuje jego status - celem tego zabiegu jest powstrzymanie przypadku wyścigu, aby pocisk nie był odczytany w stanie niepewnym
+
 Przejście przez centrum ekrany - sekcja aktualizuje flage i puszcza dźwięk metronomu, synchronizacja w celu zapewnienia że tylko raz dźwięk zabrzmi
+
 Baseball - 2 Muteksy
+
 Detekcja kolizji - Sprawdza kolizje pomiędzy pociskiem, zmienne używane do sprawdzenia kolizji są używane przez inne wątki (pozycja)
+
 Flagi Porażki i Czekania - Muteks ten upewnia się że flagi są synchonizowane z innymi wątkami
+
 FlyingProjectile - muteks w celu uniknięcia drobnych wizualnych anomalii spowodowany niepoprawnym odczytem pozycji startowej
+
 ScoreManager - dostęp do punktacji jest zlockowany w celu uniknięcia wielokrotnej modyfikacji

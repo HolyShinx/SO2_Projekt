@@ -31,12 +31,14 @@ Objekty przybliżone i krótko opisane co się dzieje na ekranie
 
 **Przejście przez centrum ekrany** - sekcja aktualizuje flage i puszcza dźwięk metronomu, synchronizacja w celu zapewnienia że tylko raz dźwięk zabrzmi
 
+
 **Baseball** - 2 Muteksy
 
 **Detekcja kolizji** - Sprawdza kolizje pomiędzy pociskiem, zmienne używane do sprawdzenia kolizji są używane przez inne wątki (pozycja)
 
-Flagi Porażki i Czekania - Muteks ten upewnia się że flagi są synchonizowane z innymi wątkami
+**Flagi Porażki i Czekania** - Muteks ten upewnia się że flagi są synchonizowane z innymi wątkami
 
-FlyingProjectile - muteks w celu uniknięcia drobnych wizualnych anomalii spowodowany niepoprawnym odczytem pozycji startowej
 
-ScoreManager - dostęp do punktacji jest zlockowany w celu uniknięcia wielokrotnej modyfikacji
+**FlyingProjectile** - muteks w celu uniknięcia drobnych wizualnych anomalii spowodowany niepoprawnym odczytem pozycji startowej
+
+**ScoreManager** - dostęp do punktacji jest zlockowany w celu uniknięcia wielokrotnej modyfikacji

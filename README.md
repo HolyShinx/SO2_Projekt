@@ -1,7 +1,6 @@
-przykładowy plik .mp3 do gierki. Nie jest mojej własności, link poniżej
-https://pixabay.com/sound-effects/drumsticks-pro-mark-la-special-2bn-hickory-no4-103712/
+https://github.com/HolyShinx/SO2_Projekt/assets/71772288/92405fa2-6390-4392-beba-9ef7926aea9d
 
-Spokojnie, kod jest mój
+
 todo:
 - Dodanie dodatkowego trybu z 2 albo nawet z 3 piłeczkami
 - muzyka po porażce

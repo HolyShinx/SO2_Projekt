@@ -1,3 +1,5 @@
+##Maszyna do piłeczek tenisowych (nazwa tymczasowa, nie mam lepszej na razie, formalne "GameBall")
+
 ![b0c4f3f4-694d-476d-ae7b-3b72280923c5](https://github.com/HolyShinx/SO2_Projekt/assets/71772288/ffa19852-9d63-42b0-a30c-2a80681a1d42)
 
 

@@ -5,8 +5,10 @@ Obraz koncepcyjny:
 
 "Gameball" jest prostą grą stworzoną w języku python, dzieki bibliotece pygame.
 Jest to aplikacja wielowątkowa, obsługuje wielowątkowość za pomocą modułu "threading".
+
 Gra ta jest dość prosta, leci piłka w stronę gracza, a gracz ma ją odbić. Żeby było tą grę czuć, dodałem wiele efektów typu kręcenie piłki, odlot piłki czy dźwięk gdy piłka jest
 w połowie drogi, efekt ten po części osiągnąłem, a tryb podwójny jest jeszcze przyjemniejszy.
+
 Objekty rysowałem ja, tła mi bot wygenerował, ten projekt zajął mi dłużej niż powinien xd
 
 Objekty przybliżone i krótko opisane co się dzieje na ekranie 

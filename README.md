@@ -14,9 +14,13 @@ Objekty przybliżone i krótko opisane co się dzieje na ekranie
 
 ### Wątki
 Projectile - Wątek odpowiedzialny za pocisk lecący w strone gracza z punktu wyrzutni, gracz musi go odbić aby zyskać punkt i nie przegrać
+
 Projectile_Top - Kopia wątku pierwszego bez obsługi metronomu
+
 Baseball - Wątek odpowiedziany za akcję gracza (machanie kijem) i jej konsekwencje
+
 FlyingProjectile - Wątek służący do zarządzania pozycją i stanem dekoracyjnego pocisku po trafieniu "Projectile", nie ma praktycznego zastosowania, poza daniem graczu świadomości że trafił w piłkę
+
 ScoreManager - Wątek do zarządzania wartością punktów, dodaje za trafienia, odejmuje za pudła
 
 ### Sekcje krytyczne:
